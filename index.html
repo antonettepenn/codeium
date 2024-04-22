@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See World With Us</title>
+    <style>
+        /* CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        .button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        
+        .button:hover {
+            background-color: #555;
+        }
+        
+        .travel-location {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        
+        .location {
+            width: 30%;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        form {
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>See World With Us</h1>
+        <a href="#" class="button">Home</a>
+        <a href="#" class="button">Travel</a>
+        <a href="#" class="button">Book Flights</a>
+    </header>
+
+    <div class="travel-location">
+        <div class="location">
+            <img src="location1.jpg" alt="Location 1">
+            <h2>Location 1</h2>
+            <p>Description of Location 1</p>
+        </div>
+        <div class="location">
+            <img src="location2.jpg" alt="Location 2">
+            <h2>Location 2</h2>
+            <p>Description of Location 2</p>
+        </div>
+        <div class="location">
+            <img src="location3.jpg" alt="Location 3">
+            <h2>Location 3</h2>
+            <p>Description of Location 3</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2022 See World With Us</p>
+    </footer>
+
+    <form>
+        <h2>Contact Us</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
